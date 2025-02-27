@@ -1,0 +1,35 @@
+Data types in Javascript :
+
+primitive data types: number(numerical value), string, boolean(true false), undefined(kuch define hi nhi kiya hai), null(type of karenge toh object show hoga)
+, BigInt, Symbol. 
+
+
+
+Non-primitive datatype:
+
+objects(Array and functions) :- it is a collection of value
+
+
+operator 
+
+Arithmatic : + , -,*,/ , modulas, exponetion, increment decrement 
+
+assignment : =,  += , -=,*=,/= assigning value form right to left
+
+Comparison Operators :
+
+1 equal to (==): string converted into a number that why give true as an output don't check the datatype 
+
+2 equal to and type( === )  (strict version): here it checks data types and doesn't convert string into numbers that's why gives false as output
+
+3 not equal to (!=) : same as ==  cpmparse with number only 
+
+4 not equal to and types (!==): check it striclty
+
+5 <,> <=, >= 
+
+Logical operator : 
+
+logical &&
+logical ||
+logical ! 
