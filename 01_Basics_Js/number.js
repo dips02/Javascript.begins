@@ -17,4 +17,13 @@ console.log(Math.abs(-4));//this used to convert only negative value in positive
 console.log(Math.round(4.6));//function for round of value 
 console.log(Math.ceil(4.2));//will give upper round of value
 console.log(Math.floor(4.9));//will give lower round of value 
+Math.random()//this function give the random values bw 0 and 1 
+console.log((Math.random()*10) + 1);
+console.log(Math.floor(Math.random()*10) + 1);//this gives the num from 0 to 9
 
+const min = 10
+const max = 20
+
+console.log(Math.floor(Math.random() * (max - min + 1)) + min);
+
+// last one is for getting number greater than 10 
